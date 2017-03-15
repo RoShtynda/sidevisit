@@ -1,0 +1,275 @@
+
+body{
+    background-image: url(../images/fon.jpg);
+    background-repeat: no-repeat;
+ 
+}
+
+
+
+/* ===Header=== */
+header{
+    height: 60px;
+    line-height: 60px;
+    width: 100%;
+    background-image: url(../images/h_fon.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    margin-bottom: 30px;
+    min-width: 1150px;
+}
+header .container{
+}
+ 
+.container{
+    width: 1150px;
+}
+.row div{
+    height: 60px;
+}
+.row .logo a{
+    color: white;
+    font-size: 30px;
+    font-family: Sylfaen;
+}
+.row .logo a:hover{
+    text-decoration: none;
+    color: #bfccce;
+}
+.row .cont{
+    color: white;
+    font-size: 20px;
+    font-family: Sylfaen;
+    text-align: right;
+}
+.row .cont a{
+    display: inline-block;
+    padding-right: 10px;
+    margin-left: 10px;
+    color: white;
+    font-size: 20px;
+    height: 30px;
+    line-height: 30px;
+    border-right: 1px solid #bfccce;
+    
+}
+.row .cont a:hover{
+    text-decoration: none;
+    color: #bfccce;
+}
+.row .cont a:last-child{
+    border-right: none;
+}
+
+/* ===Title=== */
+
+div.side_title{
+    height: 135px;
+    margin-bottom: 30px;
+    
+}
+
+.side_title .tit{
+    margin: auto;
+    width: 1000px;
+    height: 135px;
+    background-color: #d8e3e5;
+    border-radius: 5px;
+    text-align: center;
+    background-image: url(../images/fff.png);
+    background-repeat: no-repeat;
+    background-position: 95% 95%;
+}
+ 
+.side_title span.t{
+    text-align: center;
+    font-size: 60px;
+    font-family: Comic Sans MS;
+}
+
+.side_title span.y{
+    text-align: center;
+    font-size: 30px;
+    font-family: Comic Sans MS;
+}
+
+.side_title .x{
+    height: 47px;
+    background-image: url(../images/sg.png);
+    background-repeat: no-repeat;
+    background-position: 10% 0;
+
+}
+
+/* ===Side=== */
+
+div.side{
+    height: 700px;
+    border: 1px solid black;
+    margin-bottom: 50px;
+    background-image: url(../images/ppp.jpg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.navig{
+    height: 55px;
+    line-height: 55px;
+    background-image: url(../images/h_fon.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.navig a{
+    font-size: 24px;
+    font-family: Comic Sans MS;
+    text-decoration: none;
+    color: #fff;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-right: 2px solid #fff;
+    height: 30px;
+}
+.navig a:hover{
+    color: #bfccce;
+}
+.navig a:last-child{
+    border-right: none;
+}
+
+
+.cent{
+    height: 573px;
+    padding: 30px;
+}
+.cent .block{
+    display: inline-block;
+}
+.cent .block1{
+    
+}
+.cent h1 {
+    font-family: Comic Sans MS;
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: black;
+}
+.cent div{
+    height: auto;
+    width: auto;
+}
+.cent p {
+    font-family: Comic Sans MS;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    color: black;
+}
+.cent span{
+    display: block;
+    font-family: Comic Sans MS;
+    font-size: 16px;
+    
+}
+
+
+
+/* ===Footer=== */
+.footer{
+    height: 70px;
+    line-height: 70px;
+    background-image: url(../images/h_fon.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.footer .cont a{
+    border: none;
+}
+
+.footer .sots a {
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.footer .sots a img{
+    border-radius: 10px;
+}
+
+
+/*  ===Avtopark=== */
+
+
+.cent_a .avto p{
+    display: inline-block;
+    margin-top: 10px;
+}
+.cent_a .avto{
+    width: auto;
+}
+.cent_a .avto div{
+    width: auto;
+}
+.avto img{
+    width: 120px;
+    height: 100px;
+    border-radius: 10px;
+}
+.cent_a{
+    height: 700px;
+    padding: 30px;
+}
+.side_a{
+    height: 827px;
+    border: 1px solid black;
+    margin-bottom: 50px;
+    background-image: url(../images/ppp.jpg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.cent_a .avto .im1{
+    margin-left: 143px;
+}
+.cent_a .avto .im2{
+    margin-left: 30px;
+}
+.cent_a .avto .im3{
+    margin-left: 110px;
+}
+.cent_a .avto .im4{
+    margin-left: 97px;
+}
+.avto span{
+    display: inline-block;
+    width: 90px;
+}
+.avto .tit_infor{
+    margin-right: 135px;
+}
+.avto .gabarit{
+    padding-left: 430px;
+}
+.avto .gabarit1{
+    display: inline-block;
+    padding-left: 83px;
+}
+.avto .gabarit1 span{
+    width: 95px;
+}
+
+
+
+/* =====Form==== */
+
+ 
+.form{
+    width: 600px;
+}
+.form p{
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+
+
+
